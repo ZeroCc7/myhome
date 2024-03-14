@@ -40,8 +40,8 @@ const openMusicShow = ref(false);
 
 // 一言数据
 const hitokotoData = reactive({
-  text: "这里应该显示一句话",
-  from: "無名",
+  text: "如果生活把你的门关上那你就再打开。因为这是门,门就是这样用的",
+  from: "莫",
 });
 
 // 获取一言数据
@@ -58,8 +58,8 @@ const getHitokotoData = async () => {
         fill: "#efefef",
       }),
     });
-    hitokotoData.text = "这里应该显示一句话";
-    hitokotoData.from = "無名";
+    hitokotoData.text = "如果生活把你的门关上那你就再打开。因为这是门，门就是这样用的";
+    hitokotoData.from = "莫";
   }
 };
 
